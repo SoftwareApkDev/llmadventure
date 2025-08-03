@@ -68,7 +68,7 @@ class MenuSystem:
 
             current_settings = {
                 "API Key": "Set" if config.get_api_key() else "Not Set",
-                "Model": config.get("model", "gemini-2.0-flash-exp"),
+                "Model": config.get("model", "gemini-2.5-flash"),
                 "Max Tokens": config.get("max_tokens", 2048),
                 "Temperature": config.get("temperature", 0.7),
                 "Auto Save": "Enabled" if config.get("save_auto", True) else "Disabled",
