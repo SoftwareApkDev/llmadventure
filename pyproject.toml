@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "llmadventure"
-version = "1.0.3"
+version = "1.0.4"
 description = "🎮 AI-Powered CLI Text Adventure Game - Create infinite stories with LLM"
 readme = "README.md"
 license = {text = "MIT"}
