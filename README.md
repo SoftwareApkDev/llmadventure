@@ -78,10 +78,17 @@ game.attack("dragon")
 
 ### Custom Plugin
 
-```python
-from llmadventure.plugins import Plugin
+LLMAdventure supports a flexible plugin system. To create a plugin, inherit from the `Plugin` base class and use the `register_plugin` decorator from `llmadventure.plugins`:
 
+```python
+from llmadventure.plugins import Plugin, register_plugin
+
+@register_plugin
 class MyCustomPlugin(Plugin):
+    name = "My Custom Plugin"
+    version = "1.0.0"
+    description = "A custom plugin for LLMAdventure"
+
     def on_combat_start(self, player, enemy):
         # Add custom combat mechanics
         pass
@@ -128,7 +135,7 @@ pip install "llmadventure[data]"
 ### From Source
 
 ```bash
-git clone https://github.com/llmadventure/llmadventure.git
+git clone https://github.com/SoftwareApkDev/llmadventure.git
 cd llmadventure
 pip install -e .
 ```
@@ -328,7 +335,6 @@ LLMAdventure is optimized for performance:
 ## 🆘 Support
 
 - **📧 Email**: softwareapkdev2022@gmail.com
-- **💬 Discord**: [Join our community](https://discord.gg/llmadventure)
 - **🐛 Issues**: [GitHub Issues](https://github.com/SoftwareApkDev/llmadventure/issues)
 
 ## 🙏 Acknowledgments

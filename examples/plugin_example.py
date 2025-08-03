@@ -7,7 +7,7 @@ to extend the game's functionality.
 """
 
 import asyncio
-from typing import Dict, Any, Optional
+from typing import Dict, Any
 from llmadventure.plugins import Plugin, register_plugin
 from llmadventure.core.game import Game
 from llmadventure.core.player import Player

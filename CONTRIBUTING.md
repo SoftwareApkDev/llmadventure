@@ -221,22 +221,21 @@ Brief description of changes
 
 ## 🎮 Plugin Development
 
-### Creating a Plugin
+LLMAdventure uses a simple plugin system. To create a plugin, inherit from the `Plugin` base class and use the `register_plugin` decorator from `llmadventure.plugins`:
 
-1. **Create Plugin Structure**
-   ```python
-   from llmadventure.plugins import Plugin, register_plugin
-   
-   @register_plugin
-   class MyPlugin(Plugin):
-       name = "My Custom Plugin"
-       version = "1.0.0"
-       description = "A custom plugin for LLMAdventure"
-       
-       def on_game_start(self, game):
-           # Plugin initialization
-           pass
-   ```
+```python
+from llmadventure.plugins import Plugin, register_plugin
+
+@register_plugin
+class MyPlugin(Plugin):
+    name = "My Custom Plugin"
+    version = "1.0.0"
+    description = "A custom plugin for LLMAdventure"
+    
+    def on_game_start(self, game):
+        # Plugin initialization
+        pass
+```
 
 2. **Add Event Handlers**
    ```python
@@ -351,22 +350,16 @@ Contributors are recognized in several ways:
 
 ### Communication Channels
 
-- **Discord**: [Join our community](https://discord.gg/llmadventure)
-- **GitHub Issues**: [Bug reports and feature requests](https://github.com/llmadventure/llmadventure/issues)
-- **GitHub Discussions**: [General discussion](https://github.com/llmadventure/llmadventure/discussions)
-- **Email**: dev@llmadventure.com
+- **GitHub Issues**: [Bug reports and feature requests](https://github.com/SoftwareApkDev/llmadventure/issues)
+- **GitHub Discussions**: [General discussion](https://github.com/SoftwareApkDev/llmadventure/discussions)
+- **Email**: softwareapkdev2022@gmail.com
 
 ### Mentorship
 
 New contributors can request mentorship:
-- Ask questions in Discord
 - Request code reviews
 - Get help with setup
 - Learn best practices
-
-## 📄 Code of Conduct
-
-We are committed to providing a welcoming and inclusive environment. Please read our [Code of Conduct](CODE_OF_CONDUCT.md) for details.
 
 ## 📜 License
 
@@ -376,4 +369,4 @@ By contributing to LLMAdventure, you agree that your contributions will be licen
 
 **Thank you for contributing to LLMAdventure!** 🎮✨
 
-Your contributions help make LLMAdventure better for everyone. We appreciate your time and effort! 
+Your contributions help make LLMAdventure better for everyone. We appreciate your time and effort!

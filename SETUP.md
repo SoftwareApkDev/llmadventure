@@ -56,7 +56,7 @@ adventure
 
 ```bash
 # Clone the repository
-git clone https://github.com/llmadventure/llmadventure.git
+git clone https://github.com/SoftwareApkDev/llmadventure.git
 cd llmadventure
 
 # Create virtual environment
@@ -106,7 +106,7 @@ Create `~/.config/llmadventure/config.yaml`:
 # API Configuration
 api:
   provider: "google"
-  model: "gemini-2.0-flash-exp"
+  model: "gemini-2.5-flash"
   timeout: 30
   retries: 3
 
@@ -144,14 +144,14 @@ logging:
 
 ### Environment Variables
 
-| Variable | Description | Default |
-|----------|-------------|---------|
-| `GOOGLE_API_KEY` | Google AI API key | Required |
-| `LLMADVENTURE_CONFIG` | Config file path | `~/.config/llmadventure/config.yaml` |
-| `LLMADVENTURE_DATA_DIR` | Data directory | `~/.local/share/llmadventure` |
-| `LLMADVENTURE_LOG_LEVEL` | Log level | `INFO` |
-| `LLMADVENTURE_THEME` | UI theme | `auto` |
-| `LLMADVENTURE_LANGUAGE` | Language | `en` |
+| Variable                 | Description       | Default                              |
+|--------------------------|-------------------|--------------------------------------|
+| `GOOGLE_API_KEY`         | Google AI API key | Required                             |
+| `LLMADVENTURE_CONFIG`    | Config file path  | `~/.config/llmadventure/config.yaml` |
+| `LLMADVENTURE_DATA_DIR`  | Data directory    | `~/.local/share/llmadventure`        |
+| `LLMADVENTURE_LOG_LEVEL` | Log level         | `INFO`                               |
+| `LLMADVENTURE_THEME`     | UI theme          | `auto`                               |
+| `LLMADVENTURE_LANGUAGE`  | Language          | `en`                                 |
 
 ## 🎮 Game Modes
 
@@ -195,8 +195,9 @@ python -m pdb main.py
 
 ### Creating a Plugin
 
+LLMAdventure supports plugins via a simple base class and decorator. Place your plugin anywhere in your project, and import from `llmadventure.plugins`:
+
 ```python
-# my_plugin.py
 from llmadventure.plugins import Plugin, register_plugin
 
 @register_plugin
@@ -407,10 +408,9 @@ export LLMADVENTURE_LOG_LEVEL=DEBUG
 
 ### Getting Help
 
-- 📧 **Email**: dev@llmadventure.com
-- 💬 **Discord**: [Join our community](https://discord.gg/llmadventure)
-- 🐛 **Issues**: [GitHub Issues](https://github.com/llmadventure/llmadventure/issues)
-- 📖 **Documentation**: [docs.llmadventure.com](https://docs.llmadventure.com)
+- 📧 **Email**: softwareapkdev2022@gmail.com
+- 🐛 **Issues**: [GitHub Issues](https://github.com/SoftwareApkDev/llmadventure/issues)
+- 📖 **Documentation**: [documentation](https://github.com/SoftwareApkDev/llmadventure/blob/master/README.md)
 
 ## 🎉 Next Steps
 
@@ -424,4 +424,4 @@ export LLMADVENTURE_LOG_LEVEL=DEBUG
 
 **Happy adventuring!** 🗡️⚔️🏰
 
-For more information, visit [llmadventure.com](https://llmadventure.com) 
+For more information, visit [llmadventure.com](https://llmadventure.com)

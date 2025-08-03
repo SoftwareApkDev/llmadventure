@@ -5,7 +5,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [1.0.0] - 2024-01-15
+## [1.0.0] - 2025-08-03
 
 ### Added
 - 🎉 **Initial Release**: Complete AI-powered text adventure game
@@ -52,39 +52,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - CI/CD pipeline
 - Security best practices
 
-## [0.9.0] - 2024-01-10
-
-### Added
-- Beta release with core functionality
-- Basic AI integration
-- Simple CLI interface
-- Core game mechanics
-
-### Changed
-- Improved performance
-- Better error handling
-- Enhanced documentation
-
-## [0.8.0] - 2024-01-05
-
-### Added
-- Alpha release
-- Basic game structure
-- Initial AI integration
-
-### Fixed
-- Various bugs and issues
-- Performance improvements
-
-## [0.7.0] - 2024-01-01
-
-### Added
-- Pre-alpha release
-- Core architecture
-- Basic functionality
-
----
-
 ## Upcoming Features
 
 ### Planned for 1.1.0
@@ -119,25 +86,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
-## Migration Guide
-
-### From 0.9.0 to 1.0.0
-- Configuration format has changed
-- API endpoints have been updated
-- Plugin system has been redesigned
-- Save file format has been updated
-
-### From 0.8.0 to 0.9.0
-- Minor breaking changes in API
-- Configuration updates required
-- Database schema changes
-
----
-
 ## Support
 
 For help with migration or any issues, please:
-- Check the [documentation](https://docs.llmadventure.com)
-- Join our [Discord community](https://discord.gg/llmadventure)
-- Open an [issue on GitHub](https://github.com/llmadventure/llmadventure/issues)
-- Contact us at dev@llmadventure.com 
+- Check the [documentation](https://github.com/SoftwareApkDev/llmadventure/blob/master/README.md)
+- Open an [issue on GitHub](https://github.com/SoftwareApkDev/llmadventure/issues)
+- Contact us at softwareapkdev2022@gmail.com
