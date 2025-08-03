@@ -317,14 +317,6 @@ LLMAdventure is optimized for performance:
 - **Efficient AI**: Optimized prompts and caching
 - **Memory Efficient**: Minimal resource usage
 
-## 🏆 Success Stories
-
-> "LLMAdventure has revolutionized how I think about interactive storytelling. The AI-generated content is consistently engaging and surprising." - *Game Developer*
-
-> "Perfect for teaching AI concepts to students. They love creating their own adventures!" - *Computer Science Professor*
-
-> "The plugin system is incredibly powerful. I've created entire new game modes with just a few lines of code." - *Mod Developer*
-
 ## 📚 Documentation
 
 - **[User Guide](https://docs.llmadventure.com/user-guide)**: Complete game manual
