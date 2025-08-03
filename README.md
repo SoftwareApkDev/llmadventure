@@ -331,10 +331,6 @@ LLMAdventure is optimized for performance:
 - **💬 Discord**: [Join our community](https://discord.gg/llmadventure)
 - **🐛 Issues**: [GitHub Issues](https://github.com/SoftwareApkDev/llmadventure/issues)
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## 🙏 Acknowledgments
 
 - **Google Gemini 2.5 Flash** for AI capabilities
